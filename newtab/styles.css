@@ -1,0 +1,20 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 2px;
+}
+
+.draggable-element {
+    position: absolute;
+    cursor: move;
+    z-index: 9;
+    background-color: #ed0d0d;
+    border: 1px solid #d3d3d3;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.inner-element {
+    background-color: aliceblue;
+}
